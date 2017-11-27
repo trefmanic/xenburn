@@ -46,17 +46,15 @@
 				<!-- greynurse -->
 				<key>caret</key>
 				<string>#D3D7CF</string>
+				
+				<!-- greynurse -->
 				<key>foreground</key>
 				<string>#D3D7CF</string>
 				
 				<key>invisibles</key>
 				<string>#A5A5A552</string>
 				
-				<!-- gunmetal -->
-				<key>lineHighlight</key>
-				<string>#2e3436</string>
-				
-				<!-- parisdaisy -->
+				<!-- parisdaisy + ALPHA -->
 				<key>selection</key>
 				<string>#FCE94FEE</string>
 
@@ -65,8 +63,12 @@
 				<string>#1C1C1C</string>
 
 				<!-- parisdaysy + ALPHA -->
+				<key>selectionBorder</key>
+				<string>#FCE94FEE</string>
+
+				<!-- silvertree + ALPHA -->
                 <key>inactiveSelection</key>
-                <string>#FCE94F90</string>
+                <string>#60B38AEE</string>
 
                 <!-- java -->
                 <key>findHighlight</key>
@@ -76,7 +78,18 @@
                 <key>findHighlightForeground</key>
                 <string>#2e3436</string>
 
+                <!-- gunmetal -->
+                <key>gutter</key>
+                <string>#2E3436</string>
 
+                <!-- gunmetal -->
+                <key>gutterForeground</key>
+                <string>#767676</string>
+
+				<!-- nero -->
+				<key>lineHighlight</key>
+				<string>#1c1c1c</string>
+								
 			</dict>
 		</dict>
 
