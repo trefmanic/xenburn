@@ -1,6 +1,6 @@
 # About #
 
-This is a low-contrast color scheme based on [zenburn][1] by Colin T.A. Gray. I found zenburn lacking proper highlights for Markdown and decided to resolve that. Using some other schemes as an insporation, I've made this one.
+This is a low-contrast color scheme based on [zenburn][1] by Colin T.A. Gray. I found zenburn lacking proper highlights for Markdown and decided to resolve that. Using some other schemes as an inspiration, I've made this one.
 
 ## Contributions ##
 
