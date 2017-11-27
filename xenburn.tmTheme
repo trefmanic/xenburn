@@ -14,27 +14,27 @@
 		<!-- GIT VERSION MARKER -->
 		<!-- COLOR DEFINITIONS:
 
-			nero: 
-			gunmetal: 
-			balticsea:
-			dimgray:
-			greynurse: 
-			greenwhite:	
-			frost:
-			oasis:
-			jonquil:
-			parisdaisy:
-			wheat:
-			pinkflare:
-			mypink:
-			earlsgreen:
-			pavlova:
-			laurel:
-			java:
-			silvertree:
-			paleturquoise:
-			buttercup:
-			lilacbush:
+			nero: 				#1C1C1C
+			gunmetal: 			#2E3436
+			balticsea:			#3F3F3F
+			dimgray:			#767676
+			greynurse: 			#D3D7CF
+			greenwhite:			#DCDCCC
+			frost:				#DFDFBF
+			oasis:				#F0DFAF
+			jonquil:			#EFEF8F
+			parisdaisy:			#FCE94F
+			wheat:				#FFD7AF
+			pinkflare:			#D7AFAF
+			mypink:				#D78787
+			earlsgreen:			#C4A000
+			pavlova:			#AFAF87
+			laurel:				#7F9F7F
+			java:				#06989A
+			silvertree:			#60B38A
+			paleturquoise:		#8CD0D3
+			buttercup:			#D68C1B
+			lilacbush:			#AF87D7
 
 			 -->
 			<key>settings</key>
