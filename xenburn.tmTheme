@@ -6,30 +6,44 @@
 	<string>Jani Nurminen. Adapted and modified by Colin T.A. Gray and William D. Neumann. Rewrited by trefmanic</string>
 	<key>name</key>
 	<string>xenburn</string>
+	
 	<key>settings</key>
 	<array>
-		<!--
-			This scheme was heavily modified by trefmanic
-		-->
+		<!-- Global setings -->
 		<dict>
 		<!-- GIT VERSION MARKER -->
 		<!-- COLOR DEFINITIONS:
 
-			baltic_sea: 
-			greynurse: 
-			gunmetal:
-			parisdaysy:
 			nero: 
-			java:	
+			gunmetal: 
+			balticsea:
+			dimgray:
+			greynurse: 
+			greenwhite:	
+			frost:
+			oasis:
+			jonquil:
+			parisdaisy:
+			wheat:
+			pinkflare:
+			mypink:
+			earlsgreen:
+			pavlova:
 			laurel:
+			java:
+			silvertree:
+			paleturquoise:
+			buttercup:
+			lilacbush:
+
 			 -->
 			<key>settings</key>
 			<dict>
-				<!-- baltic_sea -->
+				<!-- balticsea -->
 				<key>background</key>
 				<string>#3F3F3F</string>
 				
-				<!-- grey_nurse -->
+				<!-- greynurse -->
 				<key>caret</key>
 				<string>#D3D7CF</string>
 				<key>foreground</key>
@@ -42,7 +56,7 @@
 				<key>lineHighlight</key>
 				<string>#2e3436</string>
 				
-				<!-- daisy -->
+				<!-- parisdaisy -->
 				<key>selection</key>
 				<string>#FCE94FEE</string>
 
@@ -58,7 +72,7 @@
                 <key>findHighlight</key>
                 <string>#06989A</string>
                 
-                <!-- gunmetal (FTB) -->
+                <!-- gunmetal  -->
                 <key>findHighlightForeground</key>
                 <string>#2e3436</string>
 
@@ -93,6 +107,7 @@
 		</dict>
 
 <!-- TEST -->
+
         <dict>
             <key>name</key>
             <string>Comments: Preprocessor</string>
@@ -118,7 +133,19 @@
                 <string>#ff0000</string>
             </dict>
         </dict>
-
+		
+		<dict>
+			<key>name</key>
+			<string>Storage</string>
+			<key>scope</key>
+			<string>storage</string>
+			<key>settings</key>
+			<dict>
+				<!-- TESTING -->
+				<key>foreground</key>
+				<string>#FF0000</string>
+			</dict>
+		</dict>
 
 <!-- TEST END -->
 
@@ -142,8 +169,9 @@
 			<string>keyword.other.phpdoc</string>
 			<key>settings</key>
 			<dict>
+				<!-- silvertree -->
 				<key>foreground</key>
-				<string>#568E4D</string>
+				<string>#60B38A</string>
 			</dict>
 		</dict>
 
@@ -167,8 +195,9 @@
 			<string>source.ruby.embedded</string>
 			<key>settings</key>
 			<dict>
+				<!-- pinkflare -->
 				<key>foreground</key>
-				<string>#CC9495</string>
+				<string>#D7AFAF</string>
 			</dict>
 		</dict>
 
@@ -179,6 +208,7 @@
 			<string>keyword.other.directive</string>
 			<key>settings</key>
 			<dict>
+				<!-- greenwhite -->
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
@@ -231,6 +261,7 @@
 			<string>string.unquoted.heredoc</string>
 			<key>settings</key>
 			<dict>
+				<!-- mypink -->
 				<key>foreground</key>
 				<string>#D78787</string>
 			</dict>
@@ -271,6 +302,7 @@
 			<string>constant.character, constant.other</string>
 			<key>settings</key>
 			<dict>
+				<!-- pavlova -->
 				<key>foreground</key>
 				<string>#AFAF87</string>
 			</dict>
@@ -283,6 +315,7 @@
 			<string>variable.other.constant</string>
 			<key>settings</key>
 			<dict>
+				<!-- pavlova -->
 				<key>foreground</key>
 				<string>#AFAF87</string>
 			</dict>
@@ -325,10 +358,11 @@
 			<string>entity.name.module,support.other.module</string>
 			<key>settings</key>
 			<dict>
+				<!-- buttercup -->
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#FF8000</string>
+				<string>#D68C1B</string>
 			</dict>
 		</dict>
 
@@ -389,21 +423,9 @@
 			<string>entity.name.class.variant</string>
 			<key>settings</key>
 			<dict>
+				<!-- paleturquoise -->
 				<key>foreground</key>
 				<string>#8CD0D3</string>
-			</dict>
-		</dict>
-		
-		<dict>
-			<key>name</key>
-			<string>Storage</string>
-			<key>scope</key>
-			<string>storage</string>
-			<key>settings</key>
-			<dict>
-				<!-- TESTING -->
-				<key>foreground</key>
-				<string>#FF0000</string>
 			</dict>
 		</dict>
 
@@ -414,8 +436,9 @@
 			<string>entity.name.type , entity.other</string>
 			<key>settings</key>
 			<dict>
+				<!-- greynurse -->
 				<key>foreground</key>
-				<string>#D6D6D6</string>
+				<string>#D3D7CF</string>
 			</dict>
 		</dict>
 		
@@ -478,7 +501,7 @@
 			<string>invalid</string>
 			<key>settings</key>
 			<dict>
-				<!-- lilac bush -->
+				<!-- lilacbush -->
 				<key>fontStyle</key>
 				<string>bold italic underline</string>
 				<key>foreground</key>
@@ -493,8 +516,10 @@
             <string>invalid.deprecated</string>
             <key>settings</key>
             <dict>
+                <!-- nero -->
                 <key>background</key>
                 <string>#1C1C1C</string>
+                <!-- pavlova -->
                 <key>foreground</key>
 				<string>#AF87D7</string>
                 <key>fontStyle</key>
@@ -524,6 +549,7 @@
 			<string>entity.name.tag</string>
 			<key>settings</key>
 			<dict>
+				<!-- oasis -->
 				<key>foreground</key>
 				<string>#F0DFAF</string>
 			</dict>
@@ -562,6 +588,7 @@
 			<string>punctuation.definition.variable</string>
 			<key>settings</key>
 			<dict>
+				<!-- wheat + ALPHA -->
 				<key>foreground</key>
 				<string>#FFD7AFDD</string>
 			</dict>
@@ -626,6 +653,7 @@
 			<string>punctuation.definition.tag.begin.html,punctuation.definition.tag.end.html,meta.tag.structure.any.html</string>
 			<key>settings</key>
 			<dict>
+				<!-- wheat + ALPHA -->
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
@@ -640,6 +668,7 @@
 			<string>entity.name.tag.yaml</string>
 			<key>settings</key>
 			<dict>
+				<!-- wheat + ALPHA -->
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
@@ -654,8 +683,9 @@
 			<string>punctuation.definition.entry</string>
 			<key>settings</key>
 			<dict>
+				<!-- graynurse -->
 				<key>foreground</key>
-				<string>#D6D6D6</string>
+				<string>#D3D7CF</string>
 			</dict>
 		</dict>
 
@@ -916,7 +946,8 @@
             </dict>
         </dict>
        
-        <dict>
+<!-- TEST     
+		<dict>
             <key>name</key>
             <string>HTML: Embedded</string>
             <key>scope</key>
@@ -927,6 +958,7 @@
                 <string>#ff0000</string>
             </dict>
         </dict>
+ END TEST -->        
         
         <dict>
             <key>name</key>
@@ -1317,8 +1349,9 @@
             <string>sublimelinter.mark.warning</string>
             <key>settings</key>
             <dict>
+            	<!-- earlsgreen -->
                 <key>foreground</key>
-                <string>#DDB700</string>
+                <string>#C4A000</string>
             </dict>
         </dict>
         
