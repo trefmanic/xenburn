@@ -6,7 +6,7 @@
 	<string>Jani Nurminen. Adapted and modified by Colin T.A. Gray and William D. Neumann. Rewrited by trefmanic</string>
 	<key>name</key>
 	<string>xenburn</string>
-	
+
 	<key>settings</key>
 	<array>
 		<!-- Global setings -->
@@ -42,18 +42,18 @@
 				<!-- balticsea -->
 				<key>background</key>
 				<string>#3F3F3F</string>
-				
+
 				<!-- greynurse -->
 				<key>caret</key>
 				<string>#D3D7CF</string>
-				
+
 				<!-- greynurse -->
 				<key>foreground</key>
 				<string>#D3D7CF</string>
-				
+
 				<key>invisibles</key>
 				<string>#A5A5A552</string>
-				
+
 				<!-- parisdaisy + ALPHA -->
 				<key>selection</key>
 				<string>#FCE94FEE</string>
@@ -73,7 +73,7 @@
                 <!-- java -->
                 <key>findHighlight</key>
                 <string>#06989A</string>
-                
+
                 <!-- gunmetal  -->
                 <key>findHighlightForeground</key>
                 <string>#2e3436</string>
@@ -89,7 +89,7 @@
 				<!-- nero -->
 				<key>lineHighlight</key>
 				<string>#1c1c1c</string>
-								
+
 			</dict>
 		</dict>
 
@@ -105,6 +105,19 @@
 				<string>#7F9F7FCC</string>
 			</dict>
 		</dict>
+
+        <dict>
+            <key>name</key>
+            <string>Comment</string>
+            <key>scope</key>
+            <string>comment.todo</string>
+            <key>settings</key>
+            <dict>
+                <!-- laurel + ALPHA -->
+                <key>background</key>
+                <string>#FF0000FF</string>
+            </dict>
+        </dict>
 
 		<dict>
 			<key>name</key>
@@ -146,7 +159,7 @@
                 <string>#ff0000</string>
             </dict>
         </dict>
-		
+
 		<dict>
 			<key>name</key>
 			<string>Storage</string>
@@ -266,7 +279,7 @@
 				<string>#D78787</string>
 			</dict>
 		</dict>
-		
+
 		<dict>
 			<key>name</key>
 			<string>Heredoc</string>
@@ -454,7 +467,7 @@
 				<string>#D3D7CF</string>
 			</dict>
 		</dict>
-		
+
 		<dict>
 			<key>name</key>
 			<string>Inherited class</string>
@@ -554,7 +567,7 @@
 				<string>#F0DFAF</string>
 			</dict>
 		</dict>
-		
+
 		<dict>
 			<key>name</key>
 			<string>html entity</string>
@@ -716,7 +729,7 @@
 				<string>#767676</string>
 			</dict>
 		</dict>
-		
+
 		<dict>
 			<key>name</key>
 			<string>other SQL</string>
@@ -731,7 +744,7 @@
 				<string>#8CD0D3</string>
 			</dict>
 		</dict>
-		
+
 		<!-- DIFFS -->
 		<dict>
 			<key>name</key>
@@ -748,7 +761,7 @@
 				<string>#D3D7CF</string>
 			</dict>
 		</dict>
-		
+
 		<dict>
 			<key>name</key>
 			<string>diff.toc</string>
@@ -958,8 +971,8 @@
                 <string>#2E3436</string>
             </dict>
         </dict>
-       
-<!-- TEST     
+
+<!-- TEST
 		<dict>
             <key>name</key>
             <string>HTML: Embedded</string>
@@ -971,8 +984,8 @@
                 <string>#ff0000</string>
             </dict>
         </dict>
- END TEST -->        
-        
+ END TEST -->
+
         <dict>
             <key>name</key>
             <string>HTML: Attribute Punctuation</string>
@@ -985,7 +998,7 @@
                 <string>#AFAF87</string>
             </dict>
         </dict>
- 
+
         <dict>
             <key>name</key>
             <string>HTML: Tag Punctuation</string>
@@ -998,7 +1011,7 @@
                 <string>#AFAF87</string>
             </dict>
         </dict>
- 
+
         <dict>
             <key>name</key>
             <string>HTML: Entities</string>
@@ -1011,7 +1024,7 @@
                 <string>#AFAF87</string>
             </dict>
         </dict>
-        
+
         <dict>
             <key>name</key>
             <string>HTML: Attribute Names</string>
@@ -1026,7 +1039,7 @@
                 <string>#C4A000</string>
             </dict>
         </dict>
-        
+
         <dict>
             <key>name</key>
             <string>HTML: Attribute Values</string>
@@ -1068,7 +1081,7 @@
                 <string>#06989A</string>
             </dict>
         </dict>
-        
+
 
         <dict>
             <key>name</key>
@@ -1100,7 +1113,7 @@
                 <string></string>
             </dict>
         </dict>
-        
+
         <dict>
             <key>name</key>
             <string>Markdown: Lists</string>
@@ -1116,7 +1129,7 @@
                 <string>#60B38A</string>
             </dict>
         </dict>
-        
+
 
         <dict>
             <key>name</key>
@@ -1130,7 +1143,7 @@
                 <string>#767676</string>
             </dict>
         </dict>
-        
+
         <dict>
             <key>name</key>
             <string>Markup: Prompt</string>
@@ -1143,7 +1156,7 @@
                 <string></string>
             </dict>
         </dict>
-        
+
         <dict>
             <key>name</key>
             <string>Markup: Heading</string>
@@ -1158,7 +1171,7 @@
                 <string></string>
             </dict>
         </dict>
-        
+
         <dict>
             <key>name</key>
             <string>Markup: StrongEmphasis</string>
@@ -1172,7 +1185,7 @@
                 <string></string>
             </dict>
         </dict>
-        
+
         <dict>
             <key>name</key>
             <string>Markup: Strong</string>
@@ -1186,7 +1199,7 @@
                 <string></string>
             </dict>
         </dict>
-        
+
         <dict>
             <key>name</key>
             <string>Markup: Strikethrough</string>
@@ -1228,7 +1241,7 @@
                 <string>#767676</string>
             </dict>
         </dict>
-        
+
         <dict>
             <key>name</key>
             <string>Markup: Strikethrough (Keyboard Shortcut)</string>
@@ -1244,7 +1257,7 @@
                 <string>#2E3436</string>
             </dict>
         </dict>
-        
+
         <dict>
             <key>name</key>
             <string>Markup: Keyboard Shortcut</string>
@@ -1257,7 +1270,7 @@
                 <string>#D3D7CF</string>
             </dict>
         </dict>
-        
+
         <dict>
             <key>name</key>
             <string>Markup: Traceback</string>
@@ -1270,7 +1283,7 @@
                 <string>#8CD0D3</string>
             </dict>
         </dict>
-        
+
         <dict>
             <key>name</key>
             <string>Markup: Underline</string>
@@ -1283,7 +1296,7 @@
                 <string>#06989A</string>
             </dict>
         </dict>
-        
+
         <dict>
             <key>name</key>
             <string>Markup: Plain Link</string>
@@ -1313,7 +1326,7 @@
 				<string>#FFD7AF</string>
 			</dict>
 		</dict>
-		
+
 		<dict>
 			<key>name</key>
 			<string>markdown heading</string>
@@ -1328,7 +1341,7 @@
 				<string>#D3D7CF</string>
 			</dict>
 		</dict>
-		
+
 		<dict>
 			<key>name</key>
 			<string>markdown list</string>
@@ -1354,7 +1367,7 @@
 				<string>#EFEF8F</string>
 			</dict>
 		</dict>
-		
+
 		<dict>
             <key>name</key>
             <string>SublimeLinter Warning</string>
@@ -1367,7 +1380,7 @@
                 <string>#C4A000</string>
             </dict>
         </dict>
-        
+
         <dict>
             <key>name</key>
             <string>SublimeLinter Gutter Mark</string>
