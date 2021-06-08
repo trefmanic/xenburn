@@ -16,7 +16,7 @@
 
 			nero: 				#1C1C1C
 			gunmetal: 			#2E3436
-			balticsea:			#3F3F3F
+			balticsea:			#444444
 			dimgray:			#767676
 			greynurse: 			#D3D7CF
 			greenwhite:			#DCDCCC
@@ -32,7 +32,7 @@
 			laurel:				#7F9F7F
 			java:				#06989A
 			silvertree:			#60B38A
-			paleturquoise:		#8CD0D3
+			paleturquoise:		        #8CD0D3
 			buttercup:			#D68C1B
 			lilacbush:			#AF87D7
 
@@ -41,7 +41,7 @@
 			<dict>
 				<!-- balticsea -->
 				<key>background</key>
-				<string>#3F3F3F</string>
+				<string>#444444</string>
 
 				<!-- greynurse -->
 				<key>caret</key>
@@ -106,18 +106,6 @@
 			</dict>
 		</dict>
 
-        <dict>
-            <key>name</key>
-            <string>Comment</string>
-            <key>scope</key>
-            <string>comment.todo</string>
-            <key>settings</key>
-            <dict>
-                <!-- laurel + ALPHA -->
-                <key>background</key>
-                <string>#FF0000FF</string>
-            </dict>
-        </dict>
 
 		<dict>
 			<key>name</key>
@@ -133,45 +121,6 @@
 		</dict>
 
 <!-- TEST -->
-
-        <dict>
-            <key>name</key>
-            <string>Comments: Preprocessor</string>
-            <key>scope</key>
-            <string>comment.block.preprocessor</string>
-            <key>settings</key>
-            <dict>
-                <key>fontStyle</key>
-                <string></string>
-                <key>foreground</key>
-                <string>#ff0000</string>
-            </dict>
-        </dict>
-
-        <dict>
-            <key>name</key>
-            <string>Exceptions</string>
-            <key>scope</key>
-            <string>entity.name.exception</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#ff0000</string>
-            </dict>
-        </dict>
-
-		<dict>
-			<key>name</key>
-			<string>Storage</string>
-			<key>scope</key>
-			<string>storage</string>
-			<key>settings</key>
-			<dict>
-				<!-- TESTING -->
-				<key>foreground</key>
-				<string>#FF0000</string>
-			</dict>
-		</dict>
 
 <!-- TEST END -->
 
